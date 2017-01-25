@@ -1,4 +1,4 @@
-# BitNotes_Android
+# BitNotes Android
 
 BitNotes Android App.
 
