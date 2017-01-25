@@ -4,8 +4,8 @@ BitNotes Android App.
 
 #UI
 
-[[https://github.com/anonymous-ME/BitNotes_Android/blob/master/SCR/02.png|alt=SCR_1]]
+![SCR_1](https://github.com/anonymous-ME/BitNotes_Android/blob/master/SCR/02.png)
 
-[[https://github.com/anonymous-ME/BitNotes_Android/blob/master/SCR/03.png|alt=SCR_2]]
+![SCR_2]https://github.com/anonymous-ME/BitNotes_Android/blob/master/SCR/03.png)
 
-[[https://github.com/anonymous-ME/BitNotes_Android/blob/master/SCR/01.png|alt=SCR_3]]
+![SCR_3](https://github.com/anonymous-ME/BitNotes_Android/blob/master/SCR/01.png)
