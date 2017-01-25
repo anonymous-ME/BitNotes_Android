@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Build LRX22G (5.0.2 Nexus 7) fails to display progress bar so we'll use Holo instead of Material -->
+        <!-- http://stackoverflow.com/questions/27567235/certain-progressbar-styles-not-shown-on-nexus-5-android-5-0-1 -->
+        <item name="android:progressBarStyleSmall">@style/MaterialProgressBarFix.Small</item>
+        <item name="android:progressBarStyle">@style/MaterialProgressBarFix</item>
+        <item name="android:progressBarStyleLarge">@style/MaterialProgressBarFix.Large</item>
+    </style>
+    <style name="MaterialProgressBarFix.Small" parent="@android:style/Widget.Holo.ProgressBar.Small" />
+    <style name="MaterialProgressBarFix"       parent="@android:style/Widget.Holo.ProgressBar" />
+    <style name="MaterialProgressBarFix.Large" parent="@android:style/Widget.Holo.ProgressBar.Large" />
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

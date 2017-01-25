@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/trending"
+            android:title="Trending" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_practical"
+            android:title="Practical" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_assignment"
+            android:title="Assignment" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_examnote"
+            android:title="Exam Notes" />
+        <item
+            android:id="@+id/nav_manag"
+            android:icon="@drawable/ic_menu_qpaper"
+            android:title="Question Paper" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Visit us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_rate"
+                android:title="Rate us" />
+        </menu>
+    </item>
+
+</menu>
