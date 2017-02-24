@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.squareup.picasso.Picasso;
+import com.bumptech.glide.Glide;
 import java.util.List;
 
 public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.CustomViewHolder> {
@@ -40,7 +40,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Cu
         FeedItem feedItem = feedItemList.get(i);
 
         //Download image using picasso library
-        Picasso.with(mContext).load(feedItem.getThumbnail())
+        Glide.with(mContext).load(feedItem.getThumbnail())
                 .error(R.drawable.placeholder_book)
                 .placeholder(R.drawable.placeholder_book)
                 .into(customViewHolder.imageView);

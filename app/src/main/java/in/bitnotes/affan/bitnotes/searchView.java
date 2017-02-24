@@ -155,7 +155,7 @@ public class searchView extends AppCompatActivity {
                 feedsList.add(item);
             }
             for (int i = 0; i < notes.length(); i++) {
-                //Adding Notes
+                //Adding BitnotesService
                 JSONObject note = notes.optJSONObject(i);
                 item = new FeedItem();
                 item.setTitle(note.optString("topic"));

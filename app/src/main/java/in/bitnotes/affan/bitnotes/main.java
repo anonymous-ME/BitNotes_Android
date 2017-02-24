@@ -475,7 +475,7 @@ public class main extends AppCompatActivity
                 item.setThumbnail(Pthumb.get(i).toString());
                 item.setUrl("http://bitnotes.in/v1/practicals/"+practical.optInt("id"));
                 feedsList.add(item);
-                //Adding Notes
+                //Adding BitnotesService
                 JSONObject note = notes.optJSONObject(i);
                 item = new FeedItem();
                 item.setTitle(note.optString("topic"));
